@@ -1,0 +1,6 @@
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementML\bin\Debug\EmpManagementML.dll
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementML\bin\Debug\EmpManagementML.pdb
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementML\obj\Debug\EmpManagementML.csprojAssemblyReference.cache
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementML\obj\Debug\EmpManagementML.csproj.CoreCompileInputs.cache
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementML\obj\Debug\EmpManagementML.dll
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementML\obj\Debug\EmpManagementML.pdb
