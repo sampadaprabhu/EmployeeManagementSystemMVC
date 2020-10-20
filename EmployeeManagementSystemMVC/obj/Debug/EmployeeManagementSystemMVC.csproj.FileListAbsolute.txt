@@ -77,3 +77,9 @@ G:\ASP.NET\EmployeeManagementSystemMVC\EmployeeManagementSystemMVC\obj\Debug\Emp
 G:\ASP.NET\EmployeeManagementSystemMVC\EmployeeManagementSystemMVC\obj\Debug\EmployeeManagementSystemMVC.csproj.CopyComplete
 G:\ASP.NET\EmployeeManagementSystemMVC\EmployeeManagementSystemMVC\obj\Debug\EmployeeManagementSystemMVC.dll
 G:\ASP.NET\EmployeeManagementSystemMVC\EmployeeManagementSystemMVC\obj\Debug\EmployeeManagementSystemMVC.pdb
+G:\ASP.NET\EmployeeManagementSystemMVC\EmployeeManagementSystemMVC\bin\EmpManagementBL.dll
+G:\ASP.NET\EmployeeManagementSystemMVC\EmployeeManagementSystemMVC\bin\EmpManagementML.dll
+G:\ASP.NET\EmployeeManagementSystemMVC\EmployeeManagementSystemMVC\bin\EmpManagementRL.dll
+G:\ASP.NET\EmployeeManagementSystemMVC\EmployeeManagementSystemMVC\bin\EmpManagementBL.pdb
+G:\ASP.NET\EmployeeManagementSystemMVC\EmployeeManagementSystemMVC\bin\EmpManagementML.pdb
+G:\ASP.NET\EmployeeManagementSystemMVC\EmployeeManagementSystemMVC\bin\EmpManagementRL.pdb

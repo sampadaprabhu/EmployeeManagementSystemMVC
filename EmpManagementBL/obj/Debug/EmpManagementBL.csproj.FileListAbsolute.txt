@@ -4,3 +4,8 @@ G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementBL\obj\Debug\EmpManagementBL
 G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementBL\obj\Debug\EmpManagementBL.csproj.CoreCompileInputs.cache
 G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementBL\obj\Debug\EmpManagementBL.dll
 G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementBL\obj\Debug\EmpManagementBL.pdb
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementBL\bin\Debug\EmpManagementML.dll
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementBL\bin\Debug\EmpManagementRL.dll
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementBL\bin\Debug\EmpManagementML.pdb
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementBL\bin\Debug\EmpManagementRL.pdb
+G:\ASP.NET\EmployeeManagementSystemMVC\EmpManagementBL\obj\Debug\EmpManagementBL.csproj.CopyComplete

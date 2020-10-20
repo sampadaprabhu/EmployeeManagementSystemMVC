@@ -13,11 +13,15 @@ namespace EmployeeManagementSystemMVC
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //routes.MapRoute(
+            //    name: "default",
+            //    url: "{controller}/{action}/{id}",
+            //    defaults: new { controller = "Employee", action = "AddEmployee", id = UrlParameter.Optional }
+            //);
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+                "Employee/AddEmployee", "Employee/AddEmployee", 
+                new { Controller = "Employee", action = "AddEmployee", id = UrlParameter.Optional }
+                );
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using EmpManagementBL.implementation;
 using EmpManagementML;
+using EmpManagementRL;
 using EmpManagementRL.implementation;
 using System;
 using System.Collections.Generic;
@@ -12,12 +13,7 @@ namespace EmpManagementBL
 {
     public class EmpManagementBusinessLayer : IEmpManagementBusinessLayer
     {
-        private readonly IEmpManagementRepositoryLayer empManagementRepositoryLayer;
-
-        public EmpManagementBusinessLayer(IEmpManagementRepositoryLayer empManagementRepositoryLayer)
-        {
-            this.empManagementRepositoryLayer = empManagementRepositoryLayer;
-        }
+        private readonly IEmpManagementRepositoryLayer empManagementRepositoryLayer=new EmpManagementRepositoryLayer();
         public bool AddEmployee(EmpManagementModelLayer empManagementML)
         {
             try
