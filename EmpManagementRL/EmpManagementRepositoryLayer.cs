@@ -106,5 +106,25 @@ namespace EmpManagementRL
                 this.connection.Close();
             }
         }
+
+        public DataSet GetAllEmployee()
+        {
+            try
+            {
+                DataSet dataset = new DataSet();
+                using (this.connection)
+                {
+                    this.connection.Open();
+                    SqlDataAdapter adapter = new SqlDataAdapter("SPGetEmployeeList", this.connection);
+                    adapter.Fill(dataset);
+                    this.connection.Close();
+                    return dataset;
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
 }
