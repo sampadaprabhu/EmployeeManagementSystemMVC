@@ -78,5 +78,33 @@ namespace EmpManagementRL
                 throw new Exception(e.Message);
             }
         }
+
+        public bool DeleteEmployee(string EmpID)
+        {
+            try
+            {
+                using (this.connection)
+                {
+                    SqlCommand command = new SqlCommand("SPDeleteEmployeeData", this.connection);
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@EmpID", Convert.ToInt32(EmpID));
+                    this.connection.Open();
+                    var result = command.ExecuteNonQuery();
+                    if (result > 0)
+                    {
+                        return true;
+                    }
+                    return false;
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+            finally
+            {
+                this.connection.Close();
+            }
+        }
     }
 }
