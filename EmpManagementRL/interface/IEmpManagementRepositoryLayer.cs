@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmpManagementML;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace EmpManagementRL.implementation
 {
     public interface IEmpManagementRepositoryLayer
     {
+        bool AddEmployee(EmpManagementModelLayer empManagementModelLayer);
     }
 }
