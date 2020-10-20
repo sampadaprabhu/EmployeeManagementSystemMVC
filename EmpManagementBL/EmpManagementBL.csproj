@@ -44,10 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmpManagementBusinessLayer.cs" />
+    <Compile Include="interface\IEmpManagementBusinessLayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="interface\" />
+    <ProjectReference Include="..\EmpManagementML\EmpManagementML.csproj">
+      <Project>{C7303121-CECA-4AA4-92AD-6B2E71604C4B}</Project>
+      <Name>EmpManagementML</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmpManagementRL\EmpManagementRL.csproj">
+      <Project>{1F8C23C6-C22F-4740-A033-514785D834A2}</Project>
+      <Name>EmpManagementRL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
